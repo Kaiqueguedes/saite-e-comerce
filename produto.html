@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bracelete da Aurora — Loja Valquíria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style-base.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img src="logo.png" alt="Loja Valquíria" />
+      </a>
+
+
+      <input type="checkbox" id="navcheck" class="navcheck" aria-hidden="true" />
+      <label for="navcheck" class="nav-toggle">☰</label>
+
+      <nav class="nav" role="navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown">
+            <span class="dropbtn" tabindex="0">Produtos</span>
+            <div class="dropdown-content">
+              <a href="grade-produtos.html">Todos</a>
+              <a href="busca.html">Buscar</a>
+            </div>
+          </li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container product-detail">
+      <div class="product-media">
+        <img src="https://placehold.co/720x480/png?text=Bracelete+Aurora" alt="Bracelete da Aurora" />
+      </div>
+      <div class="card">
+        <h2 style="font-family:Poppins">Bracelete da Aurora</h2>
+        <p>Descrição do produto: lorem ipsum dolor sit amet, consectetur adipiscing elit. Detalhes de materiais e
+          tamanho.</p>
+        <p class="price" style="font-size:1.4rem">R$ 129,90</p>
+        <div class="qty-row">
+          <label for="qty">Qtd.</label>
+          <input id="qty" type="number" min="1" value="1" style="width:90px" />
+        </div>
+        <div class="cta-row" style="margin-top:1rem">
+          <a class="btn btn-primary" href="pedidos.html">Adicionar aos pedidos</a>
+          <a class="btn btn-accent" href="grade-produtos.html">Continuar comprando</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Loja Valquíria •<a href="quem-somos.html">Sobre</a> • <a
+          href="contato.html">Contato</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — Loja Valquíria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style-base.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+       <img src="logo.png" alt="Loja Valquíria" />
+      </a>
+
+
+      <input type="checkbox" id="navcheck" class="navcheck" aria-hidden="true" />
+      <label for="navcheck" class="nav-toggle">☰</label>
+
+      <nav class="nav" role="navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown">
+            <span class="dropbtn" tabindex="0">Produtos</span>
+            <div class="dropdown-content">
+              <a href="grade-produtos.html">Todos</a>
+              <a href="busca.html">Buscar</a>
+            </div>
+          </li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container card">
+      <h2 style="font-family:Poppins">Fale conosco</h2>
+      <form>
+        <div style="display:grid; gap:.75rem; grid-template-columns: 1fr 1fr;">
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu e-mail" required />
+        </div>
+        <select required>
+          <option value="">Assunto</option>
+          <option>Dúvidas</option>
+          <option>Trocas e devoluções</option>
+          <option>Parcerias</option>
+        </select>
+        <textarea rows="5" placeholder="Mensagem"></textarea>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Loja Valquíria •<a href="quem-somos.html">Sobre</a> • <a
+          href="contato.html">Contato</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>

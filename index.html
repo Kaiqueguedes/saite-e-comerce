@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Início — Loja Valquíria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style-base.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+       <img src="logo.png" alt="Loja Valquíria" />
+      </a>
+
+
+      <input type="checkbox" id="navcheck" class="navcheck" aria-hidden="true" />
+      <label for="navcheck" class="nav-toggle" >☰</label>
+
+      <nav class="nav" role="navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown">
+            <span class="dropbtn" tabindex="0">Produtos</span>
+            <div class="dropdown-content">
+              <a href="grade-produtos.html">Todos</a>
+              <a href="busca.html">Buscar</a>
+            </div>
+          </li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container content">
+      <div>
+        <span class="badge">Nova coleção</span>
+        <h1>Joias inspiradas no Norte — beleza, força e histórias em cada peça.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Promoções imperdíveis nesta semana.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="grade-produtos.html">Ver produtos</a>
+          <a class="btn btn-accent" href="busca.html">Buscar</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/600x360/png?text=Banner+Promocional" alt="Banner da coleção" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 style="font-family:Poppins">Destaques</h2>
+      <div class="product-grid">
+        <article class="card product-card">
+          <img src="https://placehold.co/480x320/png?text=Bracelete+Aurora" alt="Bracelete Aurora" />
+          <h3>Bracelete da Aurora</h3>
+          <p class="price">R$ 129,90</p>
+          <a class="btn btn-primary" href="produto.html">Ver produto</a>
+        </article>
+        <article class="card product-card">
+          <img src="https://placehold.co/480x320/png?text=Colar+Tempestade" alt="Colar Tempestade" />
+          <h3>Colar da Tempestade</h3>
+          <p class="price">R$ 159,90</p>
+          <a class="btn btn-primary" href="produto2.html">Ver produto</a>
+        </article>
+        <article class="card product-card">
+          <img src="https://placehold.co/480x320/png?text=Anel+Skadi" alt="Anel Skadi" />
+          <h3>Anel Skadi</h3>
+          <p class="price">R$ 89,90</p>
+          <a class="btn btn-primary" href="produto.html">Ver produto</a>
+        </article>
+        <article class="card product-card">
+          <img src="https://placehold.co/480x320/png?text=Pulseira+Freyja" alt="Pulseira Freyja" />
+          <h3>Pulseira Freyja</h3>
+          <p class="price">R$ 119,90</p>
+          <a class="btn btn-primary" href="produto2.html">Ver produto</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Loja Valquíria •<a href="quem-somos.html">Sobre</a> • <a
+          href="contato.html">Contato</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>
